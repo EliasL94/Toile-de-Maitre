@@ -41,9 +41,9 @@ const Portfolio = () => {
         <section id="portfolio" className="py-20 bg-gray-50">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Nos Réalisations</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Quelques Réalisations</h2>
                     <div className="w-20 h-1 bg-blue-600 mx-auto rounded-full"></div>
-                    <p className="mt-4 text-gray-600">Faites défiler pour découvrir nos chantiers.</p>
+                    <p className="mt-4 text-gray-600">Parmi nos centaines de chantiers, voici un aperçu de notre savoir-faire.</p>
                 </div>
 
                 {/* Horizontal Scroll Container */}

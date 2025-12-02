@@ -21,13 +21,13 @@ export const content = {
     about: {
         title: "Notre Histoire",
         subtitle: "Une entreprise au service de vos projets avec 35 ans d'expérience",
-        description: "Fondée le 29 mai 2016, la société TOILE DE MAITRE bénéficie d'un savoir-faire transmis depuis 35 ans. Structure à taille humaine (SAS), nous privilégions la qualité et la relation client.\n\nSpécialisée dans la maçonnerie générale et le gros œuvre, notre entreprise a su évoluer pour accompagner ses clients dans tous leurs projets de rénovation, avec le souci du détail qui caractérise les véritables artisans.",
+        description: "Fondée le 29 mai 2016 et présidée par M. Sami LOUHICHI, la société TOILE DE MAITRE bénéficie d'un savoir-faire transmis depuis 35 ans. Structure à taille humaine (SAS), nous privilégions la qualité et la relation client.\n\nSpécialisée dans la maçonnerie générale et le gros œuvre, notre entreprise a su évoluer pour accompagner ses clients dans tous leurs projets de rénovation, avec le souci du détail qui caractérise les véritables artisans.",
         stats: [
             { value: "35", label: "Ans d'expérience" },
             { value: "1000+", label: "Projets réalisés" },
-            { value: "100%", label: "Satisfaction" },
+            { value: "95%", label: "Satisfaction" },
         ],
-        image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=800&auto=format&fit=crop",
     },
     services: [
         {
@@ -166,6 +166,38 @@ export const content = {
                 "/projects/GP-9/WhatsApp Image 2025-12-02 at 23.35.10 (2).jpeg",
                 "/projects/GP-9/WhatsApp Image 2025-12-02 at 23.35.10 (3).jpeg",
                 "/projects/GP-9/WhatsApp Image 2025-12-02 at 23.35.10 (4).jpeg",
+            ],
+        },
+        {
+            title: "Projet 10",
+            category: "Rénovation",
+            images: [
+                "/projects/GP-10/WhatsApp Image 2025-12-02 at 23.44.50.jpeg",
+                "/projects/GP-10/WhatsApp Image 2025-12-02 at 23.44.50 (1).jpeg",
+                "/projects/GP-10/WhatsApp Image 2025-12-02 at 23.44.50 (2).jpeg",
+            ],
+        },
+        {
+            title: "Projet 11",
+            category: "Construction",
+            images: [
+                "/projects/GP-11/WhatsApp Image 2025-12-02 at 23.45.50.jpeg",
+                "/projects/GP-11/WhatsApp Image 2025-12-02 at 23.45.51.jpeg",
+                "/projects/GP-11/WhatsApp Image 2025-12-02 at 23.45.51 (1).jpeg",
+                "/projects/GP-11/WhatsApp Image 2025-12-02 at 23.45.51 (2).jpeg",
+                "/projects/GP-11/WhatsApp Image 2025-12-02 at 23.45.51 (3).jpeg",
+            ],
+        },
+        {
+            title: "Projet 12",
+            category: "Aménagement",
+            images: [
+                "/projects/GP-12/WhatsApp Image 2025-12-02 at 23.50.18.jpeg",
+                "/projects/GP-12/WhatsApp Image 2025-12-02 at 23.50.18 (1).jpeg",
+                "/projects/GP-12/WhatsApp Image 2025-12-02 at 23.50.18 (2).jpeg",
+                "/projects/GP-12/WhatsApp Image 2025-12-02 at 23.50.18 (3).jpeg",
+                "/projects/GP-12/WhatsApp Image 2025-12-02 at 23.50.19.jpeg",
+                "/projects/GP-12/WhatsApp Image 2025-12-02 at 23.50.19 (1).jpeg",
             ],
         },
     ],
