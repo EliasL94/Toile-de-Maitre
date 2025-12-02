@@ -27,7 +27,7 @@ export const content = {
             { value: "100+", label: "Projets réalisés" },
             { value: "100%", label: "Satisfaction" },
         ],
-        image: "https://images.unsplash.com/photo-1581094794329-cd11965d1169?q=80&w=800&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop",
     },
     services: [
         {
@@ -55,7 +55,7 @@ export const content = {
         {
             title: "Villa Moderne",
             category: "Construction",
-            image: "https://images.unsplash.com/photo-1600596542815-27b88e35e696?q=80&w=800&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop",
         },
         {
             title: "Rénovation Appartement",
@@ -67,11 +67,26 @@ export const content = {
             category: "Gros Œuvre",
             image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800&auto=format&fit=crop",
         },
+        {
+            title: "Cuisine Ouverte",
+            category: "Aménagement",
+            image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=800&auto=format&fit=crop",
+        },
+        {
+            title: "Salle de Bain Luxe",
+            category: "Rénovation",
+            image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=800&auto=format&fit=crop",
+        },
+        {
+            title: "Terrasse Bois",
+            category: "Extérieur",
+            image: "https://images.unsplash.com/photo-1595846519845-68e298c2edd8?q=80&w=800&auto=format&fit=crop",
+        },
     ],
     contact: {
         title: "Parlons de votre projet",
         email: "toiledemaitre@sfr.fr",
-        phone: "06 24 43 84 79",
+        phone: "06 24 03 06 48",
         address: "3 Avenue Flouquet, 94240 L'Haÿ-les-Roses",
     },
     footer: {
