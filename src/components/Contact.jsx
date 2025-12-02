@@ -25,7 +25,6 @@ const Contact = () => {
                 (error) => {
                     console.error('FAILED...', error.text);
                     setStatus('error');
-                    alert("Erreur EmailJS : " + error.text); // Affiche l'erreur pour le débogage
                     setTimeout(() => setStatus(''), 3000);
                 },
             );

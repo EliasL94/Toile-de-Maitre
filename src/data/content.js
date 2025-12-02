@@ -6,6 +6,7 @@ export const content = {
         logoIcon: PaintRoller,
         nav: [
             { label: "Accueil", href: "#home" },
+            { label: "À Propos", href: "#about" },
             { label: "Services", href: "#services" },
             { label: "Réalisations", href: "#portfolio" },
             { label: "Contact", href: "#contact" },
@@ -16,6 +17,17 @@ export const content = {
         subtitle: "SAS fondée en 2016. Spécialiste en maçonnerie générale et gros œuvre. Une expertise reconnue depuis près de 10 ans.",
         cta: "Demander un devis gratuit",
         image: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=2070&auto=format&fit=crop",
+    },
+    about: {
+        title: "Notre Histoire",
+        subtitle: "Une entreprise familiale au service de vos projets depuis 2016",
+        description: "Fondée le 29 mai 2016, la société TOILE DE MAITRE est née d'une passion pour le bâtiment et le travail bien fait. Structure à taille humaine (SAS), nous privilégions la qualité et la relation client.\n\nSpécialisée dans la maçonnerie générale et le gros œuvre, notre entreprise a su évoluer pour accompagner ses clients dans tous leurs projets de rénovation, avec le souci du détail qui caractérise les véritables artisans.",
+        stats: [
+            { value: "10", label: "Ans d'expérience" },
+            { value: "100+", label: "Projets réalisés" },
+            { value: "100%", label: "Satisfaction" },
+        ],
+        image: "https://images.unsplash.com/photo-1581094794329-cd11965d1169?q=80&w=800&auto=format&fit=crop",
     },
     services: [
         {
