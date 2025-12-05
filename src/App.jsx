@@ -7,6 +7,8 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+import FloatingCallButton from './components/FloatingCallButton';
+
 function App() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 font-sans">
@@ -19,6 +21,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <FloatingCallButton />
     </div>
   );
 }
