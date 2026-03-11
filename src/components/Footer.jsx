@@ -7,8 +7,11 @@ const Footer = () => {
             <div className="container mx-auto px-6">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="mb-6 md:mb-0">
-                        <span className="text-2xl font-bold tracking-tight">{content.header.logo}</span>
-                        <p className="text-gray-400 mt-2 text-sm">Expertise et qualité depuis plus de 20 ans.</p>
+                        <div className="flex items-center space-x-2 mb-2">
+                            <img src="/logo.png" alt={content.header.logo} className="h-10 w-10 object-contain rounded-lg bg-white p-1" />
+                            <span className="text-2xl font-bold tracking-tight">{content.header.logo}</span>
+                        </div>
+                        <p className="text-gray-400 text-sm">Expertise et qualité depuis plus de 20 ans.</p>
                     </div>
 
                     <div className="flex space-x-6 mb-6 md:mb-0">

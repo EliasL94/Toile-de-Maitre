@@ -22,9 +22,7 @@ const Header = () => {
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <a href="#" className="flex items-center space-x-2 text-2xl font-bold text-gray-900 tracking-tight group">
-                    <div className="bg-blue-600 text-white p-2 rounded-lg group-hover:bg-blue-700 transition-colors">
-                        {React.createElement(content.header.logoIcon, { size: 24 })}
-                    </div>
+                    <img src="/logo.png" alt={content.header.logo} className="h-10 w-10 object-contain rounded-lg" />
                     <span>{content.header.logo}</span>
                 </a>
 
